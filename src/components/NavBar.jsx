@@ -67,12 +67,25 @@ const NavBar = () => {
 
       <section ref={about} className="about">
         <h3>Qui sommes nous</h3>
+        <p>Une association </p>
       </section>
       <section ref={activity} className="activity">
         <h3>Activités</h3>
+        <ul>
+          <li>Taomy & Jery </li>
+          <li>DFC</li>
+          
+          </ul>
       </section>
       <section ref={contact} className="contact">
         <h3>Nous contactez</h3>
+        <ul>
+          <li>Siège: Lot FVF 21 A Firavahana Fenoarivo </li>
+          <li>Telephone: 0342738984</li>
+          <li>Mail: associationtiaro@gmail.com</li>
+          <li>Facebook: Tiaro</li>
+          <li>Instagram: tiaro_association</li>
+          </ul>
       </section>
     </>
   );
