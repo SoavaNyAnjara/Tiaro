@@ -23,7 +23,7 @@ const NavBar = () => {
           <Navbar.Brand ref={home}>
             <img onClick={() => scrollToSection(home)}
               alt="tiaro"
-              src="../LOGO-Tiaro.png"
+              src="./LOGO-Tiaro.png"
               width="50"
               height="50"
               className="d-inline-block align-top logo"
