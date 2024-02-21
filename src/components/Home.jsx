@@ -1,9 +1,10 @@
 import { FaFacebookSquare } from 'react-icons/fa';
 import './Home.css';
+import Image from '../image/tiaro-cover.jpg'
 
 const Home = ({ reference }) => {
   return (
-    <section ref={reference} className="home">
+    <section ref={reference} className="home" style={{backgroundImage: `url(${Image})`}}>
       <div className="content">
         <h3>Home</h3>
         <p>
