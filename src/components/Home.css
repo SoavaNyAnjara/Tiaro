@@ -1,8 +1,8 @@
 .home {
   display: flex;
   height: 100vh;
-  background-color: black;
-  /* background-image: url('./tiaro-cover.jpg'); */
+  /* background-color: black; */
+  background-image: url('./tiaro-cover.jpg');
   background-size: cover;
   box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
 }
