@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import { Navbar, Container, Nav } from 'react-bootstrap';
 import ScrollToTop from './ScrollToTop';
 import Home from './Home';
+import Logo from '../image/LOGO-Tiaro.png'
 
 const NavBar = () => {
   const home = useRef(null);
@@ -23,6 +24,7 @@ const NavBar = () => {
           <Navbar.Brand ref={home}>
             <img onClick={() => scrollToSection(home)}
               alt="tiaro"
+              src={Logo}
               width="50"
               height="50"
               className="d-inline-block align-top logo"
